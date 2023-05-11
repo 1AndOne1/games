@@ -38,13 +38,17 @@ header .logo {
     justify-content: center;
     align-items: center;
 }
-
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1900px;
+}
 div .post {
     float: left;
     color: white;
     margin-top: 40px;
-    padding: 20px;
     width: 400px;
+    padding: 20px;
     margin-left: 52px;
     text-align: center;
     border: 4px solid black;
@@ -58,12 +62,15 @@ div .post:hover {
 
 .post h2 {
     padding: 10px;
+    font-size: 20px;
 }
 
 .post p {
     padding: 5px;
+    font-size: 14px;
 }
 
 .post img {
+    width: 300px;
     margin-left: -7px;
 }

@@ -1,5 +1,5 @@
 const news = document.querySelector('.news')
-const url = 'https://free-to-play-games-database.p.rapidapi.com/api/filter?tag=3d.mmorpg.fantasy.pvp&platform=pc';
+const url = 'https://free-to-play-games-database.p.rapidapi.com/api/games';
 const options = {
     method: 'GET',
     headers: {
